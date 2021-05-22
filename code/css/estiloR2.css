@@ -7,42 +7,36 @@
 #table {
   border: 1px solid gray;
   border-collapse: collapse;
-margin:0 auto;
-margin-top: 2em;
+  margin: 0 auto;
+  margin-top: 2em;
 }
 
 #table th {
   border: 1px solid grey;
-  padding:0.5em 1em 0.5em  0.50em;
+  padding: 0.5em 1em 0.5em 0.5em;
   width: 10%;
-  text-align:start;
+  text-align: start;
 }
 
 #table td {
   border: 1px solid grey;
-    padding:0.25em 1em 0.25em 0.50em;
+  padding: 0.25em 1em 0.25em 0.5em;
 }
 
 tbody tr:nth-child(2n-1) {
   background: rgb(228, 225, 225);
 }
 
-@media screen and (max-width:576px){
-
-#table {
-    margin:1em 1em;
-font-size: 0.80em;
-
+@media screen and (max-width: 576px) {
+  #table {
+    margin: 1em 1em;
+    font-size: 0.8em;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  #table {
+    margin: 1em 1em;
+    font-size: 0.8em;
+  }
 }
-
-@media screen and (max-width:768px){
-
-    #table {
-     margin:1em 1em;
-    font-size: 0.80em;
-    
-    }
-    
-    }
